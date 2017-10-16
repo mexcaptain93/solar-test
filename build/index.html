@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Solar Security test</title>
+
+    <!-- Roboto font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic-ext" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <!-- Nice scroll -->
+    <script src="js/jquery.nicescroll.min.js"></script>
+
+    <!-- Nice scroll -->
+    <script src="js/scripts.js"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="main">
+    <div class="main__sidebar">
+        <div class="sidebar">
+            <div class="sidebar__logo">
+                <img src="img/logo.png" alt="Solar Security">
+            </div>
+            <div class="sidebar__menu menu">
+                <ul class="menu__list">
+                    <li class="li menu__item">
+                        <a href="#" title="Пункт меню 1">
+                            <img src="img/menu-item-1.png" alt="Пункт меню 1">
+                        </a>
+                    </li>
+                    <li class="li menu__item">
+                        <a href="#" title="Пункт меню 2">
+                            <img src="img/menu-item-2.png" alt="Пункт меню 2">
+                        </a>
+                    </li>
+                    <li class="li menu__item">
+                        <a href="#" title="Пункт меню 3">
+                            <img src="img/menu-item-3.png" alt="Пункт меню 3">
+                        </a>
+                    </li>
+                    <li class="li menu__item">
+                        <a href="#" title="Пункт меню 4">
+                            <img src="img/menu-item-4.png" alt="Пункт меню 4">
+                        </a>
+                    </li>
+                    <li class="li menu__item">
+                        <a href="#" title="Пункт меню 5">
+                            <img src="img/menu-item-5.png" alt="Пункт меню 5">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main__content">
+        <header class="header">
+            <div class="header__heading">
+                <h1>Карточка пользователя</h1>
+            </div>
+            <div class="header__user-info user-info">
+                <div class="user-info__avatar">
+                    <a href="#" title="administrator">
+                        <img src="img/user-info-avatar.png" alt="administrator">
+                    </a>
+                </div>
+                <div class="user-info__name">
+                    <a href="#">administrator</a>
+                </div>
+                <div class="user-info__logout">
+                    <a href="#" title="Выйти">
+                        <img src="img/user-logout.png" alt="Выйти">
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div class="person">
+            <div class="person__photo" style="background-image: url('img/person.jpg');"></div>
+            <div class="person__text">
+                <div class="person__row">
+                    <div class="person__name">
+                        <span>Иванов Иван Иванович</span>
+                    </div>
+                    <div class="person__status person__status_ok">
+                        <span>Работает</span>
+                    </div>
+                </div>
+                <div class="person__row">
+                    <div class="person__role">
+                        <span>Руководитель группы</span>
+                    </div>
+                    <div class="person__email">
+                        <span>i.ivanov@mail.com</span>
+                    </div>
+                    <div class="person__since">
+                        <span>Дата начала работы: 26 апреля 2016г</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tabs">
+            <div class="tabs__item">
+                <a href="#">Информация о сотруднике</a>
+            </div>
+            <div class="tabs__item tabs__item_active">
+                <a href="#">Трудоустройства</a>
+            </div>
+            <div class="tabs__item">
+                <a href="#">Роли (23)</a>
+            </div>
+            <div class="tabs__item">
+                <a href="#">Учётные записи (3)</a>
+            </div>
+            <div class="tabs__item">
+                <a href="#">Заместители</a>
+            </div>
+            <div class="tabs__item">
+                <a href="#">История изменения ролей</a>
+            </div>
+        </div>
+        <div class="data js-scroll">
+            <div class="data__employments employments">
+                <div class="employments__item">
+                    <div class="employments__heading">
+                        <div class="heading__position">
+                            <span>Пресэйл-консультант</span>
+                        </div>
+                        <div class="heading__project">
+                            <span>Группа развития продукта inRights</span>
+                        </div>
+                        <div class="heading__since">
+                            <span>Дата начала работы</span>
+                            <span>26 апреля 2016</span>
+                        </div>
+                    </div>
+                    <div class="employments__table table">
+                        <div class="table__block table__block_wide">
+                            <div class="table__row ">
+                                <div class="table__label">
+                                    <span>Компания, подразделение, должность</span>
+                                </div>
+
+                                <div class="table__content">
+                                    <span>ООО СОЛАР СЕКЬЮРИТИ</span>
+                                    <span>Департамент развития продуктов</span>
+                                    <span>Группа развития продукта inRights</span>
+                                    <span>Пресэйл-конультант</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table__block">
+                            <div class="table__row">
+                                <div class="table__label">
+                                    <span>Номер договора</span>
+                                </div>
+
+                                <div class="table__content">
+                                    <span>-</span>
+                                </div>
+                            </div>
+                            <div class="table__row">
+                                <div class="table__label">
+                                    <span>Дата начала работы</span>
+                                </div>
+
+                                <div class="table__content">
+                                    <span>26 апреля 2016</span>
+                                </div>
+                            </div>
+                            <div class="table__row">
+                                <div class="table__label">
+                                    <span>Кадровый статус</span>
+                                </div>
+
+                                <div class="table__content">
+                                    <span>Работает</span>
+                                </div>
+                            </div>
+                            <div class="table__row">
+                                <div class="table__label">
+                                    <span>Руководитель</span>
+                                </div>
+
+                                <div class="table__content">
+                                    <span>-</span>
+                                </div>
+                            </div>
+                            <div class="table__row">
+                                <div class="table__label">
+                                    <span>Регион</span>
+                                </div>
+
+                                <div class="table__content">
+                                    <span>-</span>
+                                </div>
+                            </div>
+                            <div class="table__row">
+                                <div class="table__label">
+                                    <span>Офис</span>
+                                </div>
+
+                                <div class="table__content">
+                                    <span>-</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="table__block">
+                            <div class="table__row">
+                                <div class="table__label">
+                                    <span>Дата увольнения</span>
+                                </div>
+
+                                <div class="table__content">
+                                    <span>-</span>
+                                </div>
+                            </div>
+                            <div class="table__row">
+                                <div class="table__label">
+                                    <span>Тип пользователя</span>
+                                </div>
+                                <div class="table__content">
+                                    <span>Основное место работы</span>
+                                </div>
+                            </div>
+                            <div class="table__row">
+                                <div class="table__label">
+                                    <span>Основное трудоустройство</span>
+                                </div>
+                                <div class="table__content">
+                                    <img src="img/check.png" alt="Да">
+                                </div>
+                            </div>
+                            <div class="table__row">
+                                <div class="table__label">
+                                    <span>Город</span>
+                                </div>
+                                <div class="table__content">
+                                    <span>-</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="employments__item">
+                    <div class="employments__heading">
+                        <div class="heading__position">
+                            <span>Пресэйл-консультант</span>
+                        </div>
+                        <div class="heading__project">
+                            <span>Группа развития продукта inRights</span>
+                        </div>
+                        <div class="heading__since">
+                            <span>Дата начала работы</span>
+                            <span>26 апреля 2016</span>
+                        </div>
+                    </div>
+                    <div class="employments__table table">
+                        <div class="table__block table__block_wide">
+                            <div class="table__row ">
+                                <div class="table__label">
+                                    <span>Компания, подразделение, должность</span>
+                                </div>
+
+                                <div class="table__content">
+                                    <span>ООО СОЛАР СЕКЬЮРИТИ</span>
+                                    <span>Департамент развития продуктов</span>
+                                    <span>Группа развития продукта inRights</span>
+                                    <span>Пресэйл-конультант</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table__block">
+                            <div class="table__row">
+                                <div class="table__label">
+                                    <span>Номер договора</span>
+                                </div>
+
+                                <div class="table__content">
+                                    <span>-</span>
+                                </div>
+                            </div>
+                            <div class="table__row">
+                                <div class="table__label">
+                                    <span>Дата начала работы</span>
+                                </div>
+
+                                <div class="table__content">
+                                    <span>26 апреля 2016</span>
+                                </div>
+                            </div>
+                            <div class="table__row">
+                                <div class="table__label">
+                                    <span>Кадровый статус</span>
+                                </div>
+
+                                <div class="table__content">
+                                    <span>Работает</span>
+                                </div>
+                            </div>
+                            <div class="table__row">
+                                <div class="table__label">
+                                    <span>Руководитель</span>
+                                </div>
+
+                                <div class="table__content">
+                                    <span>-</span>
+                                </div>
+                            </div>
+                            <div class="table__row">
+                                <div class="table__label">
+                                    <span>Регион</span>
+                                </div>
+
+                                <div class="table__content">
+                                    <span>-</span>
+                                </div>
+                            </div>
+                            <div class="table__row">
+                                <div class="table__label">
+                                    <span>Офис</span>
+                                </div>
+
+                                <div class="table__content">
+                                    <span>-</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="table__block">
+                            <div class="table__row">
+                                <div class="table__label">
+                                    <span>Дата увольнения</span>
+                                </div>
+
+                                <div class="table__content">
+                                    <span>-</span>
+                                </div>
+                            </div>
+                            <div class="table__row">
+                                <div class="table__label">
+                                    <span>Тип пользователя</span>
+                                </div>
+                                <div class="table__content">
+                                    <span>Основное место работы</span>
+                                </div>
+                            </div>
+                            <div class="table__row">
+                                <div class="table__label">
+                                    <span>Основное трудоустройство</span>
+                                </div>
+                                <div class="table__content">
+                                    <img src="img/check.png" alt="Да">
+                                </div>
+                            </div>
+                            <div class="table__row">
+                                <div class="table__label">
+                                    <span>Город</span>
+                                </div>
+                                <div class="table__content">
+                                    <span>-</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="actions">
+            <div class="actions__btns">
+                <a href="#" class="actions__btn btn">+ Добавить трудоустройство</a>
+                <a href="#" class="actions__btn     btn btn_green">Редактировать</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

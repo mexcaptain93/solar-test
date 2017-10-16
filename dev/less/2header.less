@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 7px;
+
+  &__user-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .user-info {
+
+      &__avatar {
+        margin-right: 10px;
+        .tr();
+
+        &:hover {
+          .op();
+        }
+      }
+
+      &__name {
+        margin-right: 10px;
+        color: @gray;
+        font-size: 1.4rem;
+        .tr();
+
+
+        &:hover {
+          .op();
+        }
+      }
+
+      &__logout {
+        .tr();
+
+        &:hover {
+          .op();
+        }
+      }
+
+    }
+  }
+}
